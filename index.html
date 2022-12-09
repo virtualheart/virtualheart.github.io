@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Dhanajayan K, portfolio, Dhanajayan, Mainframe dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
+    <meta name="description" content="Welcome to Dhanajayan's Portfolio. Mainframe Developer and Android App Developer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style type="text/css">
+  .bg-image {
+     filter: blur(8px);
+       -webkit-filter: blur(8px);
+
+  }
+
+</style>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script type="text/javascript">
+
+    function sendEmail() {
+      Email.send({
+        Host: "smtp.gmail.com",
+        Username: "sender@gmail.com",
+        Password: "Enter your password",
+        To: 'receiver@gmail.com',
+        From: "sender@email_address.com",
+        Subject: "Portfolio | Dhanajayan K",
+        Body: "Hi ,\n{name}",
+      })
+        .then(function (message) {
+          alert("mail sent successfully")
+        });
+    }      
+  </script>
+
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+    <title>Portfolio | Dhanajayan K</title>
+</head>
+
+<body oncontextmenu="return false">
+
+<!-- pre loader -->
+<!-- <div class="loader-container">
+  <img draggable="false" src="./assets/images/preloader.gif" alt="">
+</div> -->
+
+<!-- navbar starts -->
+<header>
+        <a href="/" class="logo"><i class="fab fa-java"></i> Dhanajayan K</a>
+
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+</header>
+<!-- navbar ends -->
+
+
+<!-- hero section starts -->
+<section class="home" id="home">
+    <div id="particles-js"></div>
+
+    <div class="content">
+    <h2>Hi There,<br/> I'm Dhanajayan <span>K</span></h2>
+    <p>i am into <span class="typing-text"></span></p>
+    <a href="#about" class="btn"><span>About Me</span>
+      <i class="fas fa-arrow-circle-down"></i>
+    </a>
+    <div class="socials">
+        <ul class="social-icons">
+          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/dhana-jayan/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+          <li><a class="github" aria-label="GitHub" href="https://github.com/virtualheart" target="_blank" target="_blank"><i class="fab fa-github"></i></a></li>
+          <li><a class="twitter" aria-label="Twitter" href="https://twitter.com/Virtual__heart" target="_blank"><i class="fab fa-twitter"></i></a></li>
+          <li><a class="telegram" aria-label="Telegram" href="https://t.me/virtual_heart_smk" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+          <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/virtual__heart/" target="_blank"><i class="fab fa-instagram" target="_blank"></i></a></li>
+          <li><a class="Facebook" aria-label="Facebook" href="https://www.facebook.com/smkdhanajayan/" target="_blank"><i class="fab fa-facebook"></i></a></li> 
+          <li><a class="hackthebox" aria-label="hackthebok" target="_blank" href="https://app.hackthebox.com/profile/185223/"><i class="fab fa-hackthebox" target="_blank"></i></a></li>
+          
+          <!-- <li><a class="dev" aria-label="Dev" href="https://dev.to/dhanajayan" target="_blank"><i class="fab fa-dev"></i></a></li> -->
+        </ul>
+      </div>
+    </div>
+<div class="image">
+    <img draggable="false" class="tilt" src="./assets/images/hero.png" alt="">
+</div>
+</section>
+<!-- hero section ends -->
+
+
+<!-- about section starts -->
+<section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+    
+    <div class="row">
+
+    <div class="image">
+        <img draggable="false" class="tilt" src="./assets/images/profile2.jpg" alt="">
+    </div>
+    <div class="content">
+        <h3>I'm Dhanajayan</h3>
+        <span class="tag">Mainframe and java Developer</span>
+        
+        <p>I am a Mainframe developer based in Tamilnadu, India. 
+          <!-- I am an Information Technology undergraduate from SPPU. -->
+          I am very passionate about improving my coding skills & developing applications & websites.
+          I build WebApps and Websites using PHP Technology.
+          Working for myself to improve my skills.<br>
+          Love to build something new. </p>
+        
+        <div class="box-container">
+            <div class="box">
+              <p id="element1"><span> age: </span> %y Year %m month %d days</p>
+              <p><span> phone : </span><a href="tel:+918220926833" style="color: black;"> +91 82209 26833</a></p>
+            </div>
+            <div class="box">
+              <p><span> email : </span><a href="mailto:Dhanajayan99@gmail.com" style="color: black;"> Dhanajayan99@gmail.com</a></p>
+              <p><span> place : </span> Salem, India - 636503</p>
+            </div>
+        </div>
+        
+        <div class="resumebtn">
+            <a href="#" class="btn"><span>Resume</span>
+                <i class="fas fa-chevron-right"></i>
+            </a>
+        </div>
+
+    </div>
+    </div>
+</section>
+<!-- about section ends -->
+   
+
+<!-- skills section starts -->
+<section class="skills" id="skills">
+
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+
+    
+    <div class="container">
+          <div class="row" id="skillsContainer">
+
+            <div class="bar">
+              <div class="info">
+                <img src="./assets/images/mainframe.png"/>
+                <span>Mainframe</span>
+              </div>
+            </div>
+
+            <div class="bar">
+              <div class="info">
+                <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"/>
+                <span>Java</span>
+              </div>
+            </div>
+
+            <div class="bar">
+              <div class="info">
+                <img src="https://img.icons8.com/offices/48/000000/php-logo.png"/>
+                <span>PHP</span>
+              </div>
+            </div>
+
+            <div class="bar">
+              <div class="info">
+                <img src="https://img.icons8.com/color/48/000000/adobe-xd.png"/>
+                <span>Mainframe</span>
+              </div>
+            </div>
+
+      </div>
+</div>
+</section>
+
+<!-- skills section ends -->
+
+
+<!-- education section starts -->
+<section class="education" id="education">
+
+  <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+
+    <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
+
+
+    <div class="box-container">
+
+    <div class="box">
+        <div class="image">
+        <img draggable="false" src="./assets/images/educat/clg2.jpg"  alt="">
+        </div>
+        <div class="content">
+        <h3>Master of Computer Application</h3>
+        <p>Government Arts College, Salem</p>
+        <h4>2022-2024 | Pursuing</h4>
+        </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+      <img draggable="false" src="./assets/images/educat/clg1.jpg" alt="">
+      </div>
+      <div class="content">
+      <h3>Bachelor of Science in CS</h3>
+      <p>Salem Sowdeswari College - Salem </p>
+      <h4>2017-2020 | Completed</h4>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+      <img draggable="false" src="./assets/images/educat/school.jpg" alt="">
+      </div>
+      <div class="content">
+      <h3>HSC</h3>
+      <p>State Board | Perarignar Anna Govt Sec School </p>
+      <h4>2016-2017 | Completed</h4>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+      <img draggable="false" src="./assets/images/educat/school.jpg" alt="">
+      </div>
+      <div class="content">
+      <h3>SSLC</h3>
+      <p>State Board | Perarignar Anna Govt Sec School</p>
+      <h4>2014-2015 | Completed</h4>
+      </div>
+    </div>
+
+</div>
+</section>
+<!-- education section ends -->
+
+
+<!-- work project section starts -->
+<section class="work" id="work">
+
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> Testimonials <span></span></h2>
+
+  <div class="box-container">
+    <div class="box tilt">
+      <img draggable="false" src="./assets/images/test.jpeg" alt="" />
+      <div class="content">
+        <div class="tag">
+        <h3>Arockia Dhana Nancy</h3>
+        </div>
+        <div class="desc">
+          <p>Dhana was very helpful and fast to respond to my inquiry to help with technical issues.  His knowledge was comprehensive.  Even better, his advice helped me a lot to solve the problems </p>
+          <div class="btns">
+            <!-- <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a> -->
+            <!-- <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box tilt">
+      <img draggable="false" src="./assets/images/test.jpeg" alt="" />
+      <div class="content">
+        <div class="tag">
+        <h3>Jawahar V</h3>
+        </div>
+        <div class="desc">
+          <p>I have learned JAVA from fundamental to advanced topics here. Dhana are really good at teaching Java.</p>
+          <div class="btns">
+            <!-- <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a> -->
+            <!-- <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="box tilt">
+      <img draggable="false" src="./assets/images/test.jpeg" alt="" />
+      <div class="content">
+        <div class="tag">
+        <h3>Karthikeyan R</h3>
+        </div>
+        <div class="desc">
+          <p>I would definitely suggest backend development. We are good friends.</p>
+          <div class="btns">
+            <!-- <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a> -->
+            <!-- <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box tilt">
+      <img draggable="false" src="./assets/images/test.jpeg" alt="" />
+      <div class="content">
+        <div class="tag">
+        <h3>Sangeetha </h3>
+        </div>
+        <div class="desc">
+          <p>I appreciate your assistance with my final-year college assignment and your low pricing. Without a doubt, I'll recommend you to my friends.</p>
+          <div class="btns">
+            <!-- <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a> -->
+            <!-- <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box tilt">
+      <img draggable="false" src="./assets/images/test.jpeg" alt="" />
+      <div class="content">
+        <div class="tag">
+        <h3>Bakkinisha C</h3>
+        </div>
+        <div class="desc">
+          <p>I appreciate your kind assistance and your low fees for helping me with my college graduation project. I will surely recommend you to my classmates.</p>
+          <div class="btns">
+            <!-- <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a> -->
+            <!-- <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+</div>
+<!-- end of test -->
+
+
+
+<div class="viewall">
+  <a href="#" class="btn"><span>View All</span>
+    <i class="fas fa-arrow-right"></i>
+</a>
+</div>
+
+
+
+</section>
+<!-- work project section ends -->
+
+<!-- experience section starts -->
+<section class="experience" id="experience">
+
+  <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
+
+
+  <div class="timeline">
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>Freelancer</h2>
+        </div>
+        <div class="desc">
+            <h3>Full Stack Developer</h3>
+            <p>2020 - present</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>Cognizant Technology Solutions</h2>
+        </div>
+        <div class="desc">
+            <h3>Mainframe Developer | Programmer </h3>
+            <p>July 2021 - Sep 2021</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>Self Employed</h2>
+        </div>
+        <div class="desc">
+            <h3>Backend Developer</h3>
+            <p>2020 - present</p>
+        </div>
+      </div>
+    </div>
+
+
+    </div>
+ 
+  <div class="morebtn">
+    <a href="#" class="btn"><span>View All</span>
+      <i class="fas fa-arrow-right"></i>
+  </a>
+  </div>
+
+
+</section>
+
+<!-- experience section ends -->
+
+<!-- contact section starts -->
+<section class="contact" id="contact">
+  
+  <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+
+  <div class="container">
+    <div class="content">
+      <div class="image-box">
+        <img draggable="false" src="./assets/images/cmsoon.png" alt="">
+      </div>
+    <form id="contact-form">
+      
+      <div class="form-group">
+        <div class="field">
+          <input type="text" name="name" placeholder="Name" required>
+          <i class='fas fa-user'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="email" placeholder="Email" required>
+          <i class='fas fa-envelope'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="phone" placeholder="Phone">
+          <i class='fas fa-phone-alt'></i>
+        </div>
+        <div class="message">
+        <textarea placeholder="Message" name="message" required></textarea>
+        <i class="fas fa-comment-dots"></i>
+        </div>
+        </div>
+      <div class="button-area">
+        <button type="submit" disabled>
+          Submit <i class="fa fa-paper-plane"></i></button>
+      </div>
+    </form>
+  </div>
+  </div>
+</section>
+<!-- contact section ends -->
+
+
+<!-- footer section starts -->
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>Dhanajayan's Portfolio</h3>
+          <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/><!--  <br/> Keep Rising 🚀. Connect with me over live chat!</p> -->
+      </div>
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+          <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+          <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+          <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+          <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+          <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+      </div>
+
+      <div class="box">
+          <h3>contact info</h3>
+          <p> <i class="fas fa-phone"></i>+91 82209 26833</p>
+          <p> <i class="fas fa-envelope"></i>dhanajayan99@gmail.com</p>
+          <p> <i class="fas fa-map-marked-alt"></i>Tamil nadu, India-636503</p>
+          <div class="share">
+
+              <a href="https://www.linkedin.com/in/dhana-jayan/" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+              <a href="https://github.com/virtualheart" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+              <a href="mailto:dhanajayan99@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+              <a href="https://twitter.com/Virtual__heart" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a>
+              <a href="https://t.me/virtual_heart_smk" class="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a>
+              <a href="https://www.facebook.com/smkdhanajayan/" class="fab fa-facebook" aria-label="Facebook" target="_blank"></a>
+          </div>
+      </div>
+  </div>
+
+  <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/dhana-jayan" target="_blank"> Dhanajayan K</a></h1>
+
+</section>
+<!-- footer section ends -->
+
+
+<!-- scroll top btn -->
+<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+<!-- scroll back to top -->
+
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- typed.js cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- particle.js links -->
+<script src="./assets/js/particles.min.js"></script>
+<script src="./assets/js/app.js"></script>
+
+<!-- vanilla tilt.js links -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- scroll reveal anim -->
+<script src="https://unpkg.com/scrollreveal"></script>
+<!-- 
+<script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script> -->
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+<script src="./assets/js/script.js"></script>
+
+</body>
+</html>
+
