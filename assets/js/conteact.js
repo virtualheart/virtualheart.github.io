@@ -29,8 +29,7 @@
 
       // Get a reference to the root of the database
       var database = firebase.database();
-      var flag=false;
-
+      
       // Set the value of a node in the database
       database.ref('portfilo/'+ name + '_' + randomNum).set({
         name: name,
