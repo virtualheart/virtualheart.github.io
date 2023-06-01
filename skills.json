@@ -9,7 +9,7 @@
     },
     {
         "name": "Cobol",
-        "icon": "https://static.javatpoint.com/tutorial/cobol/images/cobol-tutorial.png"
+        "icon": "./assets/images/cobol.png"
     },
     {
         "name": "Android",
