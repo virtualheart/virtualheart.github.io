@@ -1,4 +1,2 @@
-## Posts
-
 - [Running Mainframe on Android](./mainframe-android)
 - [TN3270 on Android](./tn3270-android)
