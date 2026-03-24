@@ -1,5 +1,3 @@
-# My Mainframe blog 
-
 ## Posts
 
 - [Running Mainframe on Android](./mainframe-android)
