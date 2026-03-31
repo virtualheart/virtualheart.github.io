@@ -225,13 +225,13 @@ If you try this setup or improve it, I would love to hear about your experience.
 
 Below are real screenshots from the setup running on an Android device.
 
-![image 1](images/mainframe-android/1.png)
-![image 2](images/mainframe-android/2.png)
-![image 3](images/mainframe-android/3.png)
-![image 3](images/mainframe-android/4.png)
-![image 3](images/mainframe-android/5.png)
-![image 3](images/mainframe-android/6.png)
-![image 3](images/mainframe-android/7.png)
+![image 1](./images/mainframe-android/1.png)
+![image 2](./images/mainframe-android/2.png)
+![image 3](./images/mainframe-android/3.png)
+![image 3](./images/mainframe-android/4.png)
+![image 3](./images/mainframe-android/5.png)
+![image 3](./images/mainframe-android/6.png)
+![image 3](./images/mainframe-android/7.png)
 
 > This confirms that an Android phone can successfully act as a lightweight mainframe lab environment.
 
